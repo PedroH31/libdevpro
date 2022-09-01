@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="adicionado link do curso no README &#10;&#10;close #2">
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="Inserido tópico virtualenv.&#10;&#10;close #2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661905417792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Inserido tópico virtualenv.&#10;&#10;close #2">
+      <created>1661990002726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661990002726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,6 +79,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adicionada descrição no README" />
     <MESSAGE value="adicionado link do curso no README &#10;&#10;close #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado link do curso no README &#10;&#10;close #2" />
+    <MESSAGE value="Inserido tópico virtualenv.&#10;&#10;close #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserido tópico virtualenv.&#10;&#10;close #2" />
   </component>
 </project>
