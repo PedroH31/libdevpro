@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="adicionado arquivo requirements.txt">
-      <change afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="Adicionada linter para código python, criada função para buscar avatar de usuário no Github.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +63,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.github_api" />
         <item itemvalue="Python.github_api" />
       </list>
     </recent_temporary>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662337286308</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adicionada linter para código python, criada função para buscar avatar de usuário no Github.">
+      <created>1662338750352</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662338750352</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +155,7 @@
     <MESSAGE value="Suportado python 3" />
     <MESSAGE value="Adicionado virtualenv local no projeto" />
     <MESSAGE value="adicionado arquivo requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado arquivo requirements.txt" />
+    <MESSAGE value="Adicionada linter para código python, criada função para buscar avatar de usuário no Github." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionada linter para código python, criada função para buscar avatar de usuário no Github." />
   </component>
 </project>
