@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="configurada integração contínua com o github actions, criada função buscar avatar de usuário no github, adicionada linter com código python.&#10;&#10;close #8, close #7, close #6">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="fazendo downgrade da lib requests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666055864962</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fazendo downgrade da lib requests">
+      <created>1666056249636</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666056249636</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +169,7 @@
     <MESSAGE value="adicionado arquivo requirements.txt" />
     <MESSAGE value="Adicionada linter para código python, criada função para buscar avatar de usuário no Github." />
     <MESSAGE value="configurada integração contínua com o github actions, criada função buscar avatar de usuário no github, adicionada linter com código python.&#10;&#10;close #8, close #7, close #6" />
-    <option name="LAST_COMMIT_MESSAGE" value="configurada integração contínua com o github actions, criada função buscar avatar de usuário no github, adicionada linter com código python.&#10;&#10;close #8, close #7, close #6" />
+    <MESSAGE value="fazendo downgrade da lib requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fazendo downgrade da lib requests" />
   </component>
 </project>
