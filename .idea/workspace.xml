@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="criado arquivo setup.py&#10;close #9, close #10">
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="Implementada cobertura de testes&#10;&#10;close #19">
       <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements-dev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements-dev.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667169082968</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implementada cobertura de testes&#10;&#10;close #19">
+      <created>1667172626723</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667172626723</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implementada cobertura de testes&#10;&#10;close #19">
+      <created>1667172776524</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667172776524</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +210,7 @@
     <MESSAGE value="Adicionada linter para código python, criada função para buscar avatar de usuário no Github." />
     <MESSAGE value="criado arquivo setup.py&#10;close #9, close #10" />
     <MESSAGE value="instalado o pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="instalado o pytest" />
+    <MESSAGE value="Implementada cobertura de testes&#10;&#10;close #19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementada cobertura de testes&#10;&#10;close #19" />
   </component>
 </project>
