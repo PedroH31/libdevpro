@@ -100,7 +100,7 @@ DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curs
 AUTHOR = "Renzo Nuccitelli"
 AUTHOR_EMAIL = "renzo@python.pro.br"
 URL = "https://github.com/pythonprobr/libpythonpro"
-VERSION = __import__(PACKAGE).__version__
+VERSION = __import__(PACKAGE).__version__ = 0.1
 
 setup(
     name=NAME,
