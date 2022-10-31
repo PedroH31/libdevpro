@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="criado arquivo setup.py&#10;close #9, close #10">
-      <change afterPath="$PROJECT_DIR$/libpythonpro/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libpythonpro/tests/test_exemplo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="corrigido arquivo python-app.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,13 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.pytest in tests">
     <configuration name="github_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
@@ -173,7 +169,56 @@
       <option name="project" value="LOCAL" />
       <updated>1667169082968</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implementada cobertura de testes&#10;&#10;close #19">
+      <created>1667172626723</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667172626723</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implementada cobertura de testes&#10;&#10;close #19">
+      <created>1667172776524</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667172776524</updated>
+    </task>
+    <task id="LOCAL-00014" summary="corrigido arquivo python-app.yml">
+      <created>1667173173858</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173173858</updated>
+    </task>
+    <task id="LOCAL-00015" summary="corrigido arquivo python-app.yml">
+      <created>1667173517456</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173517456</updated>
+    </task>
+    <task id="LOCAL-00016" summary="corrigido arquivo python-app.yml">
+      <created>1667173590819</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173590819</updated>
+    </task>
+    <task id="LOCAL-00017" summary="corrigido arquivo python-app.yml">
+      <created>1667173685922</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173685922</updated>
+    </task>
+    <task id="LOCAL-00018" summary="corrigido arquivo python-app.yml">
+      <created>1667173697786</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667173697786</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +243,8 @@
     <MESSAGE value="Adicionada linter para código python, criada função para buscar avatar de usuário no Github." />
     <MESSAGE value="criado arquivo setup.py&#10;close #9, close #10" />
     <MESSAGE value="instalado o pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="instalado o pytest" />
+    <MESSAGE value="Implementada cobertura de testes&#10;&#10;close #19" />
+    <MESSAGE value="corrigido arquivo python-app.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrigido arquivo python-app.yml" />
   </component>
 </project>
