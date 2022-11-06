@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="emulado teste com banco de dados, implementado conexão, sessão e usuário&#10;&#10;close #23">
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="implementado método rollback&#10;&#10;close #23">
       <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_usuarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_usuarios.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -292,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667767136399</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="implementado método rollback&#10;&#10;close #23">
+      <created>1667767689855</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667767689855</updated>
+    </task>
+    <task id="LOCAL-00023" summary="implementado método rollback&#10;&#10;close #23">
+      <created>1667768133393</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667768133393</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +336,7 @@
     <MESSAGE value="criado teste enviador de email&#10;&#10;close #21" />
     <MESSAGE value="emulado teste com banco de dados&#10;&#10;close #23" />
     <MESSAGE value="emulado teste com banco de dados, implementado conexão, sessão e usuário&#10;&#10;close #23" />
-    <option name="LAST_COMMIT_MESSAGE" value="emulado teste com banco de dados, implementado conexão, sessão e usuário&#10;&#10;close #23" />
+    <MESSAGE value="implementado método rollback&#10;&#10;close #23" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado método rollback&#10;&#10;close #23" />
   </component>
 </project>
