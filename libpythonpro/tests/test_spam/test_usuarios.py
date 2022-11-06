@@ -16,7 +16,7 @@ def test_salvar_usuario():
 def test_listar_usuario():
     conexao = Conexao()
     sessao = conexao.gerar_sessao()
-    usuarios = [Usuario(nome='Silvio', ), Usuario(nome='Pedro')]
+    usuarios = [Usuario(nome='Silvio'), Usuario(nome='Pedro')]
     for usuario in usuarios:
         sessao.salvar(usuario)
     assert usuarios == sessao.listar()
