@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="emulado teste com banco de dados, implementado conexão, sessão e usuário&#10;&#10;close #23">
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="corrigido arquivo python-app.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_usuarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_usuarios.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,8 +130,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_usuarios.py" />
-        <item itemvalue="Python tests.pytest for test_usuarios.test_salvar_usuario" />
         <item itemvalue="Python tests.pytest for test_usuarios.test_listar_usuario" />
+        <item itemvalue="Python tests.pytest for test_usuarios.test_salvar_usuario" />
         <item itemvalue="Python tests.pytest for libpythonpro.tests.test_spam.test_enviador_de_email.test_remetente_invalido" />
         <item itemvalue="Python tests.pytest in test_enviador_de_email.py" />
       </list>
