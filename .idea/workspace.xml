@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="criado arquivo conftest para utilizar as fixtures em outros arquivos&#10;&#10;close #27">
-      <change afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" afterDir="false" />
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="produzido código testável, aplicado conceito de injeção de dependências, incluida a lib mock.&#10;&#10;close #29, close #30, close #31">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libpythonpro/github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/github_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/spam/enviador_de_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/spam/enviador_de_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/spam/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/spam/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/spam/modelos.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/spam/modelos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_envio_para_a_base_de_usuarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_envio_para_a_base_de_usuarios.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_usuarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_usuarios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="27" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,21 +47,26 @@
       <recent name="$PROJECT_DIR$/libpythonpro/tests/test_spam" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_envio_para_a_base_de_usuarios.py">
-    <configuration name="pytest for test_envio_para_a_base_de_usuarios.test_envio_de_spam" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_github_api.py">
+    <configuration name="github_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests/test_spam" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_envio_para_a_base_de_usuarios.test_envio_de_spam&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libpythonpro/github_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_envio_para_a_base_de_usuarios.test_qtde_de_spam" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -85,7 +85,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_usuarios.test_listar_usuario" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_github_api.test_buscar_avatar" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +97,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_usuarios.test_listar_usuario&quot;" />
+      <option name="_new_target" value="&quot;test_github_api.test_buscar_avatar&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -117,7 +117,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_usuarios.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_github_api.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,17 +129,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/libpythonpro/tests/test_spam/test_usuarios.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_github_api.py" />
+        <item itemvalue="Python tests.pytest for test_github_api.test_buscar_avatar" />
+        <item itemvalue="Python.github_api" />
         <item itemvalue="Python tests.pytest in test_envio_para_a_base_de_usuarios.py" />
         <item itemvalue="Python tests.pytest for test_envio_para_a_base_de_usuarios.test_qtde_de_spam" />
-        <item itemvalue="Python tests.pytest in test_usuarios.py" />
-        <item itemvalue="Python tests.pytest for test_envio_para_a_base_de_usuarios.test_envio_de_spam" />
-        <item itemvalue="Python tests.pytest for test_usuarios.test_listar_usuario" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667771017320</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="produzido código testável, aplicado conceito de injeção de dependências, incluida a lib mock.&#10;&#10;close #29, close #30, close #31">
+      <created>1669245320303</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669245320303</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,6 +352,24 @@
     <MESSAGE value="emulado teste com banco de dados, implementado conexão, sessão e usuário&#10;&#10;close #23" />
     <MESSAGE value="consertado escopos de fixtures&#10;&#10;close #25" />
     <MESSAGE value="criado arquivo conftest para utilizar as fixtures em outros arquivos&#10;&#10;close #27" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado arquivo conftest para utilizar as fixtures em outros arquivos&#10;&#10;close #27" />
+    <MESSAGE value="produzido código testável, aplicado conceito de injeção de dependências, incluida a lib mock.&#10;&#10;close #29, close #30, close #31" />
+    <option name="LAST_COMMIT_MESSAGE" value="produzido código testável, aplicado conceito de injeção de dependências, incluida a lib mock.&#10;&#10;close #29, close #30, close #31" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/libpythonpro/github_api.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="resp" />
+        <watch expression="resp.json()" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
