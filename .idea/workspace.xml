@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="isolados imports com o pytest fixture&#10;&#10;close #34">
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="Instalada e implementada lib pytest-mock&#10;&#10;close #35">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_github_api.py" />
+        <item itemvalue="Python tests.pytest in test_envio_para_a_base_de_usuarios.py" />
         <item itemvalue="Python tests.pytest for test_github_api.test_buscar_avatar_integracao" />
         <item itemvalue="Python tests.pytest for test_github_api.test_buscar_avatar" />
         <item itemvalue="Python.github_api" />
-        <item itemvalue="Python tests.pytest in test_envio_para_a_base_de_usuarios.py" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669332474393</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Instalada e implementada lib pytest-mock&#10;&#10;close #35">
+      <created>1669333386568</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1669333386568</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,7 +366,8 @@
     <MESSAGE value="criado arquivo conftest para utilizar as fixtures em outros arquivos&#10;&#10;close #27" />
     <MESSAGE value="produzido código testável, aplicado conceito de injeção de dependências, incluida a lib mock.&#10;&#10;close #29, close #30, close #31" />
     <MESSAGE value="isolados imports com o pytest fixture&#10;&#10;close #34" />
-    <option name="LAST_COMMIT_MESSAGE" value="isolados imports com o pytest fixture&#10;&#10;close #34" />
+    <MESSAGE value="Instalada e implementada lib pytest-mock&#10;&#10;close #35" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instalada e implementada lib pytest-mock&#10;&#10;close #35" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
