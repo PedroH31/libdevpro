@@ -9,9 +9,9 @@ tomli==1.0.0
 exceptiongroup==1.0.0rc8
 attrs==19.2.0
 pluggy==1.0.0
-pytest-mock==3.5.1
-pyparsing==2.4.7
-packaging==20.9
+pytest-mock==3.10.0
+pyparsing==3.0.9
+packaging==21.3
 
 #Coverage
 coverage==6.5.0
