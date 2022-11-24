@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="produzido código testável, aplicado conceito de injeção de dependências, incluida a lib mock.&#10;&#10;close #29, close #30, close #31">
+    <list default="true" id="117c5f2e-87da-4d9f-ad6d-d7a0634c23fd" name="Changes" comment="criado módulo como objeto &#10;&#10;close #32">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libpythonpro/github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/github_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/libpythonpro/tests/test_spam/test_github_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,22 +68,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_envio_para_a_base_de_usuarios.test_qtde_de_spam" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="libpythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests/test_spam" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_envio_para_a_base_de_usuarios.test_qtde_de_spam&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_github_api.test_buscar_avatar" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="libpythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +81,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_github_api.test_buscar_avatar&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_github_api.test_buscar_avatar_integracao" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="libpythonpro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libpythonpro/tests/test_spam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_github_api.test_buscar_avatar_integracao&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -136,10 +135,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_github_api.py" />
+        <item itemvalue="Python tests.pytest for test_github_api.test_buscar_avatar_integracao" />
         <item itemvalue="Python tests.pytest for test_github_api.test_buscar_avatar" />
         <item itemvalue="Python.github_api" />
         <item itemvalue="Python tests.pytest in test_envio_para_a_base_de_usuarios.py" />
-        <item itemvalue="Python tests.pytest for test_envio_para_a_base_de_usuarios.test_qtde_de_spam" />
       </list>
     </recent_temporary>
   </component>
