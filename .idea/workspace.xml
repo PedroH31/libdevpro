@@ -354,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669764650998</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Alterado gestor de dependências para pipenv&#10;&#10;close #37">
+      <created>1669764927785</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1669764927785</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
