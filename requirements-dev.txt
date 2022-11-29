@@ -10,7 +10,7 @@ exceptiongroup==1.0.0rc8
 attrs==19.2.0
 pluggy==1.0.0
 pytest-mock==3.10.0
-pyparsing==3.0.9
+pyparsing==2.0.2
 packaging==21.3
 
 #Coverage
